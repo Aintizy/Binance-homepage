@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: auto;
+    width: 30em;
+}
+
+.hero{
+    background-image: url(./images/Binance-background-image.png);
+    background-size: cover;
+}
+ nav {
+    display: flex;
+    background-color: red;
+ }
+.navs{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 65%;
+}
+ul{
+    display: flex;
+    gap: 2em;
+}
+li{
+    list-style-type: none;
+}
