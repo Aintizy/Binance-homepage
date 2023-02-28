@@ -4,29 +4,121 @@
     box-sizing: border-box;
 }
 
+html{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+header{
+    margin-top: 1%;
+    height: 3em;
+}
+.logo{
+    width: 15em;
+    margin-top: -4em;
+}
+img svg{
+    color:rgb(11, 14, 17);
+}
+.btn1{
+    height: 2em;
+    width: 6em;
+    border: none;
+    border-radius: 3px;
+    background-color: #deb707;
+}
+.btn2, .btn3{
+    background-color: #deb707;
+    border: none;
+    border-radius: 3px;
+    height: 2em;
+    width: 7em;
+    padding: 2px;
+}
+.btn3{
+    height: 3em;
+    width: 23em;
+}
+.btn4, .btn5{
+    height: 3em;
+    width: 10em;
+}
 img{
     height: auto;
     width: 30em;
 }
 
+
 .hero{
     background-image: url(./images/Binance-background-image.png);
     background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 10em;
+
 }
- nav {
+.hero > div{
+    font-size: 20px;
+    
+}
+
+ nav{
     display: flex;
-    background-color: red;
+    
+ }
+ ul > li{
+    margin-top: 0.4em;
  }
 .navs{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 65%;
+    gap: 30%;
 }
 ul{
     display: flex;
-    gap: 2em;
+    gap: 0.5em;
+    
 }
+
 li{
     list-style-type: none;
+}
+
+.nav1 > li{
+    width: 5em;
+}
+.nav2 > li{
+    width: 5em;
+}
+
+.promo{
+    text-align: center;
+    background-color: #faefbd;
+    height: 3em;
+    padding-top: 0.7em;
+    position: sticky;
+    top: 0px;
+}
+
+.stats{
+    display: flex;
+    justify-content: flex-start;
+    gap: 6em;
+    margin-left: 7em;
+    font-size: 20px;
+       
+}
+
+.sec2{
+    margin-top: 3em;
+    margin-left: 9em;
+}
+
+.sec2 > img{
+    width: 80%;
+}
+.svg{
+    width: 1.1em;
 }
