@@ -49,6 +49,16 @@ img svg{
 .btn5{
     margin: 1em;
 }
+.btn6{
+    height: 3em;
+    width: 15em;
+    background-color: #deb707;
+    margin-top: 2.6em;
+    border: none;
+    border-radius: 4px;
+    
+}
+
 img{
     height: auto;
     width: 30em;
@@ -75,7 +85,6 @@ img{
 
  nav{
     display: flex;
-    
  }
  ul > li{
     margin-top: 0.4em;
@@ -101,6 +110,10 @@ li{
 }
 .nav2 > li{
     width: 5em;
+}
+
+.nav-icon{
+    width: 2em;
 }
 
 .promo{
@@ -131,6 +144,10 @@ li{
 }
 .svg{
     width: 1.1em;
+
+}
+.svg-2{
+    width: 5em;
 }
 
 .grid{
@@ -139,6 +156,17 @@ li{
     margin: 4em;
 
 }
+
+.grid-2{
+   display: flex;
+   grid-template-columns: 3em 30em;
+   gap: 1em;
+}
+
+.grid-2 > img{
+    margin-top: 1.5em;
+}
+
 .sect3 {
     margin-left: 12em;
 }
@@ -161,4 +189,18 @@ li{
     border-radius: 4px;
     height: 3.2em;
     width: 15em;
+}
+
+.sect6{
+    display: flex;
+    gap: 15em;
+    margin-left: 15em;
+}
+
+.sect6 :nth-child(2){
+    margin-top: 2em;
+}
+
+.phone{
+    width: 20em;
 }
